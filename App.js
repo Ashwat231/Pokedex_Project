@@ -35,7 +35,7 @@ export default function App() {
   }
 
   return (
-    <View style={{flex:1,justifyContent:'flex-end',alignItems:'center'}}>
+    <View style={{flex:1,justifyContent:'flex-end',alignItems:'center',backgroundColor:'white'}}>
   <ScrollView onScroll={handleScroll} ref={inputRef}>
       <Image
       style={{height:110, width:300, alignSelf:'center',marginTop:50,marginBottom:20}}
